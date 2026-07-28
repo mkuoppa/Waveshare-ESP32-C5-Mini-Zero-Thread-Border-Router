@@ -9,7 +9,7 @@ Building the Waveshare ESP32-C5 into an OpenThread RCP (Radio Co-Processor) dong
 The ESP32-C5 acts as a dumb 802.15.4 radio dongle (**RCP** — Radio Co-Processor) over USB. Home Assistant's **OpenThread Border Router (OTBR)** add-on does all the actual Thread/IPv6 routing — the ESP itself just relays radio packets.
 
 Board specifics:
-- **Board:** Waveshare ESP32-C5 Mini/Zero
+- **Board:** [Waveshare ESP32-C5 Mini/Zero](https://docs.waveshare.com/ESP32-C5-Zero)
 - **External antenna switch pin:** GP26 (IO26) — set **HIGH** to select external antenna, per Waveshare's own docs
 - **Firmware branch:** `v6.0-beta1` of `esp-idf` (contains a USB-RCP connection-stability patch not yet in stable releases)
 
